@@ -1,0 +1,10 @@
+marqeta:
+  application-token: 19e6654d-1a01-4b39-be6c-b910bff51827
+  admin-access-token: a1d15eab-c61e-4cc9-bf24-57b68c6d04b5
+  base-url: https://sandbox-api.marqeta.com
+  base-uri: /v3
+logging:
+  level:
+    com.aykutozkat.uberpaymentgateway: DEBUG
+server:
+  port: 9090

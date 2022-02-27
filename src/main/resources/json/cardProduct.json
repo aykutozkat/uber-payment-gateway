@@ -1,0 +1,23 @@
+{
+  "start_date": "2022-03-20",
+  "name": "Funding Source Bank Card",
+  "config": {
+    "fulfillment": {
+      "payment_instrument": "VIRTUAL_PAN"
+    },
+    "poi": {
+      "ecommerce": true,
+      "atm": true
+    },
+    "card_life_cycle": {
+      "activate_upon_issue": true
+    },
+    "jit_funding": {
+      "program_funding_source": {
+        "funding_source_token": "$JIT_TOKEN",
+        "refunds_destination": "PROGRAM_FUNDING_SOURCE",
+        "enabled": true
+      }
+    }
+  }
+}

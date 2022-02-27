@@ -1,0 +1,18 @@
+package com.aykutozkat.uberpaymentgateway.dto.entity;
+
+import com.fasterxml.jackson.annotation.JsonAlias;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+public class TransactionCard {
+
+	@JsonAlias(value = "last_four")
+	private String lastFour;
+
+	private Object metadata;
+
+}
